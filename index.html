@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        <div class="todoFormWrapper">
+            <form onsubmit="addtodoformsubmite(event)">
+                <input type="text" name="todoinput" id="todoinput" placeholder="Enter Todos.............">
+                <button type="submit">Add Todo</button>
+            </form>
+        </div>
+        
+        <ol id="todos">
+        </ol>
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
